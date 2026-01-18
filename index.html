@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WealthHome</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">🏠 Wealthhome</div>
+    <nav>
+      <a href="#hero-section">Home</a>
+      <a href="#buy-section">Buy</a>
+      <a href="#rent-section">Rent</a>
+      <a href="#contact-section">Contact</a>
+      <a href="#footer-section">About</a>
+    </nav>
+    <div class="nav-btns">
+      <button class="login">Login</button>
+      <button class="primary">Get Started</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero-section" class="hero">
+    <div class=" container hero-content">
+      <h1 class="hero-heading">Where comfort <br> meets home</h1>
+      <p class="hero-text">
+       If you're looking for a place where you can be yourself, don’t give up.
+      Keep searching until you find a place that truly feels like home.
+
+      </p>
+
+      <!-- Search Box -->
+      <div class="search-box">
+        <select>
+          <option>Buy</option>
+          <option>Rent</option>
+        </select>
+
+        <select>
+          <option>Property Type</option>
+          <option>Apartment</option>
+          <option>House</option>
+        </select>
+
+        <input type="text" placeholder="Location" />
+        <button>Search</button>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="House">
+    </div>
+  </section>
+  <section id="buy-section" class="buy-section">
+  <div class="container buy-container">
+    
+    <div class="buy-text">
+      <h2>Find Your Perfect Property</h2>
+      <p>
+        Browse premium homes, apartments, and villas tailored to your lifestyle.
+        Discover properties that combine comfort, elegance, and smart investment.
+      </p>
+
+      <div class="buy-features">
+        <div class="feature-card">🏡 Verified Listings</div>
+        <div class="feature-card">📍 Prime Locations</div>
+        <div class="feature-card">💎 Luxury Homes</div>
+        <div class="feature-card">📈 Smart Investments</div>
+      </div>
+    </div>
+
+    <div class="buy-image">
+      <img src="pexels-kindelmedia-7578982 (1).jpg" alt="Buy Property">
+    </div>
+
+  </div>
+</section>
+<section  id="rent-section" class="rent-section">
+  <div class="container rent-container">
+
+    <!-- LEFT CONTENT -->
+    <div class="rent-content">
+      <h2>Find Your Ideal Rental Home</h2>
+      <p>
+        Explore premium rental homes, apartments, and studios designed for
+        modern living. Flexible options, prime locations, and trusted listings.
+      </p>
+
+      <div class="rent-features">
+        <div class="feature-card">🏠 Flexible Leases</div>
+        <div class="feature-card">📍 Prime Areas</div>
+        <div class="feature-card">💎 Furnished Homes</div>
+        <div class="feature-card">🔒 Verified Owners</div>
+      </div>
+    </div>
+
+    <!-- RIGHT IMAGE -->
+    <div class="rent-image">
+      <img src="pexels-ivan-s-8962344.jpg" alt="Rent Property">
+    </div>
+
+  </div>
+</section>
+<section id="contact-section" class="contact-section">
+  <div class="container contact-container">
+
+    <!-- Left Content -->
+    <div class="contact-content">
+      <h2>Let’s Talk About Your Next Home</h2>
+      <p>
+        Have questions about buying or renting property?  
+        Our experts are ready to help you make the right move.
+      </p>
+
+      <div class="contact-highlights">
+        <div class="highlight">🏡 Trusted Listings</div>
+        <div class="highlight">📞 Expert Support</div>
+        <div class="highlight">🔒 Secure & Verified</div>
+        <div class="highlight">⚡ Fast Response</div>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <form class="contact-form">
+      <div class="form-group">
+        <input type="text" placeholder="Full Name" required />
+      </div>
+
+      <div class="form-group">
+        <input type="email" placeholder="Email Address" required />
+      </div>
+
+      <div class="form-group">
+        <input type="tel" placeholder="Phone Number" />
+      </div>
+
+      <div class="form-group">
+        <textarea placeholder="Tell us what you're looking for..." rows="4"></textarea>
+      </div>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+  </div>
+</section>
+
+<footer id="footer-section" class="footer-section">
+  <div class="container footer-container">
+    
+    <!-- Brand -->
+    <div class="footer-brand">
+      <h3>WealthHome</h3>
+      <p>
+        Helping you find the perfect home with trust, transparency, 
+        and premium real estate experiences.
+      </p>
+    </div>
+
+    <!-- Links -->
+    <div class="footer-links">
+      <h4>Explore</h4>
+      <a href="#">Buy Property</a>
+      <a href="#">Rent Property</a>
+      <a href="#">Top Locations</a>
+      <a href="#">Agents</a>
+    </div>
+
+    <div class="footer-links">
+      <h4>Company</h4>
+      <a href="#">About Us</a>
+      <a href="#">Careers</a>
+      <a href="#">Blog</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <div class="footer-links">
+      <h4>Support</h4>
+      <a href="#">FAQs</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Help Center</a>
+    </div>
+
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="footer-bottom">
+    <p>© 2026 WealthHome. All rights reserved.</p>
+  </div>
+</footer>
+
+   <canvas id="particle-canvas"></canvas>
+  <script src="script.js"></script>
+ 
+
+</body>
+</html>
